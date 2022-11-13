@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-2 To 12.11</title>
+    <link rel="stylesheet" href="./task 1.css">
+</head>
+<body>
+
+    <div id="error"></div>
+    <form action="" class="blog-form">
+        <h2>Add a new blog</h2>
+        <div>
+            <label for="Blogtt">Blog title:</label></br>
+            <input class="input" id="Blogtt" name="Blog title" type="Blog title" placeholder="Blog 4">
+        </div> 
+        <div>
+            <label for="Blogbd">Blog body:</label></br>
+            <input class="input" id="Blogbd" name="Blog body" type="Blog body">
+            <p class="danger deactive blog-validation">Text has to be between 2 and 20 characters long</p></br>
+        </div> 
+        <div>
+            <label for="Author">Author:</label></br>
+            <input class="input" id="Author" name="Author" type="Author">
+            <p class="danger deactive name-validation">The authors name is required</p></br>
+        </div>
+        <div>
+            <label for="Number">Number:</label></br>
+            <input class="input" id="Number" name="Number" type="Number">
+            <p class="danger deactive number-validation">A number is required</p></br>
+        </div>
+        <div>
+            <label for="email">Email:</label></br>
+            <input class="input" id="email" name="Email" type="email">
+            <p class="danger deactive email-validation">Invalid email address</p></br>
+        </div>
+        <div class="btn">
+            <button type="submit" value="Save">Save</button>
+        </div>
+    </form>
+
+    <script src="./task 1.js"></script>
+    
+</body>
+</html>

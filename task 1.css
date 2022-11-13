@@ -1,0 +1,48 @@
+.input{
+    width: 100%;
+}
+
+.danger{
+    color:red;    
+}
+
+h2{
+    text-align: center;
+    color: #B8860B;
+    font-weight: bold;
+}
+
+.Blogtt{
+    background-color: #A6AFBF;
+}
+.active{
+    display:block;
+    border-color: red;
+}
+
+p{
+    text-align: center;
+}
+
+.deactive{
+    display: none;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    border: solid black ;
+}
+
+button{
+    background-color: #B8860B;
+}
